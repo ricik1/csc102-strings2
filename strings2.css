@@ -1,0 +1,69 @@
+/* Erica Egan*/
+/* CSC102 -input*/
+/* h1-added center align, color and style to my header */
+/* body-added center align, color and style to my body with includes the input, sumbit and value*/
+/* button-just added a little border color around my button*/
+/* input-just added a little border color around my input box and rounded the edges of the boxes and increased sizes*/
+
+h1 
+
+
+ {
+    color: rgb(60, 58, 60);
+    
+    text-align: center;
+    font-stretch: wider;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 45px; line-height: 45px;
+}
+body 
+{
+color: rgb(60, 58, 60);
+text-align: center;
+font-weight: bold;
+font-size: x-large;
+font-style: italic;
+font-size: 35px; line-height: 35px;
+
+  
+}
+input
+
+
+{
+
+
+    color: rgb(255, 255, 255); 
+    font-size: 29px; line-height:29px; 
+    padding: 20px; 
+    border-radius: 25px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+     box-shadow: rgb(0, 0, 0) 10px 19px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+    }
+   
+    
+
+input
+{
+-webkit-border-radius: 29px 29px 29px 29px;
+-moz-border-radius: 29px 29px 29px 29px;
+border-radius: 29px 29px 29px 29px;
+
+
+}
+input  
+
+{
+    border-color: rgb(102, 5, 5);
+    box-sizing: 50px;
+
+
+}
+ 
