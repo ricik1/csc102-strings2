@@ -1,15 +1,15 @@
 /* Erica Egan*/
 /* CSC102 -input*/
-/* h1-added center align, color and style to my header */
-/* body-added center align, color and style to my body with includes the input, sumbit and value*/
-/* button-just added a little border color around my button*/
-/* input-just added a little border color around my input box and rounded the edges of the boxes and increased sizes*/
+
+
+
+
 
 h1 
 
 
  {
-    color: rgb(60, 58, 60);
+    color: rgb(60, 58, 60);/* h1-added center align, color and style to my header */
     
     text-align: center;
     font-stretch: wider;
@@ -19,7 +19,7 @@ h1
 }
 body 
 {
-color: rgb(60, 58, 60);
+color: rgb(60, 58, 60);/* body-added center align, color and style to my body with includes the input, sumbit and value*/
 text-align: center;
 font-weight: bold;
 font-size: x-large;
@@ -34,7 +34,7 @@ input
 {
 
 
-    color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255); /*my inputs- this is waht gave them both style, the shape, color size */
     font-size: 29px; line-height:29px; 
     padding: 20px; 
     border-radius: 25px; 
@@ -61,9 +61,15 @@ border-radius: 29px 29px 29px 29px;
 input  
 
 {
-    border-color: rgb(102, 5, 5);
+    border-color: rgb(102, 5, 5);/* input-just added a little border color around my input box and rounded the edges of the boxes and increased sizes*/
     box-sizing: 50px;
 
 
 }
- 
+
+body {
+  background-image: url(Sky-Clouds.jpg); /* my pic */
+  background-repeat: no-repeat; /* not repeating */ 
+  background-size: cover; /* image to cover the entire background */
+}
+
